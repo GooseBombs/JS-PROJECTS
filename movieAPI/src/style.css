@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    scroll-behavior: smooth !important;
+}
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;   
+}
+.navbar-brand:hover{
+    color: aqua !important;
+}
+.navbar-nav{
+    flex-direction: row !important;
+}
+.nav-item{
+    transition: all .3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #fff;
+}
+form input{
+    border-radius: 10px !important;
+    width: 400px !important;
+    background-image: url(./images/search.png);
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    padding-right: 35px !important;
+    background-position-y: center;
+}
+
+.card{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.card-text{
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 25px;  
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    height: 80%;
+    max-height: 80%;
+    overflow: auto;
+    
+}
+.card-text::-webkit-scrollbar{
+    background-color: blue;
+    
+}
+.card-text::-webkit-scrollbar-thumb{
+background-color: red;
+}
+.card:hover .card-text{
+    display: block !important;
+}
+
+.disp-none{
+    display: none !important;
+}

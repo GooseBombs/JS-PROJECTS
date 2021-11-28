@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    box-sizing: border-box;
+}
+#form {
+
+}
+h1{
+    border-radius: 10%;
+    color:white;
+    background: black
+    ;
+}
+input {
+    border: none;
+    border-bottom: 2px solid #ddd ;
+    color: rgb(158, 150, 150);
+    outline: none;
+}
